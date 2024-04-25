@@ -121,10 +121,6 @@ bool _isMealFav(String id){
         FilterScreen.routeName:(context) => FilterScreen(_setFilters,_filters),
 
       },
-      // onGenerateRoute: (settings) {
-      //   print(settings.arguments);
-      //   return MaterialPageRoute(builder: (context) => CategoriesScreen(),);
-      // },
       onUnknownRoute: (settings) {
         return MaterialPageRoute(builder: (context) => CategoriesScreen(),);
       },
